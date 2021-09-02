@@ -1,0 +1,324 @@
+/* подключение шрифтов через import с сайта */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;700&display=swap');
+
+*{
+  /* font-family: 'Poppins', sans-serif; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+}
+a:hover{
+  color: #4A1ABB;
+}
+.button-primary:hover{
+  background: #4A1ABB;
+  color: #fff;
+}
+.button-secondary:hover{
+  background: transparent;
+  border: 1px solid #4A1ABB;
+}
+
+  /* header */
+  header{
+    padding: 20px 15px;
+    border-bottom: 1px solid #C7C7C7;
+    margin-bottom: 25px;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+  }
+  .burger{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  [alt=burger]{
+    width: 40px;
+  }
+  [alt=logo]{
+    width: 100px;
+  }
+  /* доступ */
+  .access{
+    margin-left: 15px;
+    margin-bottom: 40px;
+  }
+  .button-back{
+    max-width: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 32px;
+  }
+  .arrow{
+    padding: 10px;
+    border: 1px solid #C7C7C7;
+    border-radius: 50%;
+  }
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    max-width: 390px;
+    width: 100%;
+    position: relative;
+    font-size: 18px;
+  }
+  .access h1{
+    color: #1C1E20;
+    font-size: 40px;
+    margin-top: 8px;
+    line-height: 130%;
+  }
+  .box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .button-back {
+    margin: 0;
+    margin-right: 40px;
+  }
+  /* настройка */
+  .section-customization{
+    margin-bottom: 40px;
+  }
+  .customization{
+    margin: auto;
+    max-width: 1160px;
+    border: 1px solid #C7C7C7;
+    border-radius: 20px;
+    padding: 16px 16px 32px 16px;
+  }
+  .customization h2{
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .customization .info{
+    font-size: 17px;
+    color: #818181;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+  .customization h5{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+  .customization .point{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 370px;
+    width: 100%;
+    font-size: 15px;
+  }
+  .info{
+    margin-left: 8px;
+  }
+  .info .subtitle{
+    font-weight: 700;
+    color: #1C1E20;
+    margin-bottom: 4px;
+  }
+  .customization-buttons{
+    margin-left: 120px;
+    max-width: 230px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .customization-button{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 120%;
+    padding: 11px 16px;
+    border-radius: 20px;
+  }
+  .button-primary{
+    border: 1px solid #C7C7C7;
+  }
+  .button-secondary{
+    background: #4A1ABB;
+    color: #fff;
+  }
+  .password-form{
+    margin-bottom: 41px;
+    margin-left: 40px;
+    font-size: 15px;
+  }
+  .input-password{
+    border: none;
+    border-bottom:1px solid #C7C7C7;
+    padding-bottom: 8px;
+    margin-top: 8px;
+    max-width: 288px;
+    width: 100%;
+  }
+
+
+@media(max-width:1200px){
+    .container{
+      width: 95%;
+    }
+  }
+
+@media(max-width:570px){
+  .box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media(max-width:360px){
+
+  /* header */
+  header{
+    padding: 20px 15px;
+    border-bottom: 1px solid #C7C7C7;
+    margin-bottom: 25px;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+  }
+  .burger{
+    width: 20px;
+    height: 20px;
+  }
+  /* доступ */
+  .access{
+    margin-left: 15px;
+    margin-bottom: 40px;
+  }
+  .button-back{
+    max-width: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 32px;
+  }
+  .arrow{
+    padding: 10px;
+    border: 1px solid #C7C7C7;
+    border-radius: 50%;
+  }
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    max-width: 276px;
+    width: 100%;
+    position: relative;
+  }
+  .access h1{
+    color: #1C1E20;
+    font-size: 24px;
+    margin-top: 8px;
+    line-height: 130%;
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* настройка */
+  .section-customization{
+    margin-bottom: 40px;
+  }
+  .customization{
+    margin: auto;
+    max-width: 345px;
+    border: 1px solid #C7C7C7;
+    border-radius: 20px;
+    padding: 16px 16px 32px 16px;
+  }
+  .customization h2{
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .customization .info{
+    font-size: 15px;
+    color: #818181;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+  .customization h5{
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+  .customization .point{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 312px;
+    width: 100%;
+    font-size: 15px;
+  }
+  .info{
+    margin-left: 8px;
+  }
+  .info .subtitle{
+    font-weight: 700;
+    color: #1C1E20;
+    margin-bottom: 4px;
+  }
+  .customization-buttons{
+    margin-left: 80px;
+    max-width: 230px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .customization-button{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 120%;
+    padding: 11px 16px;
+    border-radius: 20px;
+  }
+  .button-primary{
+    border: 1px solid #C7C7C7;
+  }
+  .button-secondary{
+    background: #4A1ABB;
+    color: #fff;
+  }
+  .password-form{
+    margin-bottom: 41px;
+    margin-left: 40px;
+    font-size: 15px;
+  }
+  .input-password{
+    border: none;
+    border-bottom:1px solid #C7C7C7;
+    padding-bottom: 8px;
+    margin-top: 8px;
+    max-width: 288px;
+    width: 100%;
+  }
+}

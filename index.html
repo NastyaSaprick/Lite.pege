@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lite.page</title>
+  <!--подключение фавиконок-->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <!--стили-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header">
+        <a href="index.html" class="logo"><img src="img/lite.page.svg" alt="logo"></a>
+        <div class="burger">
+          <img src="img/burger_menu.svg" alt="burger">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section-access">
+    <div class="container">
+      <div class="access">
+        <div class="box">
+          <!-- кнопка -->
+        <div class="button-back">
+          <a href="#"><img src="img/Arrow_Left.svg" alt="arrow" class="arrow"></a> 
+          <a href="#">Назад</a>
+        </div>
+        <!-- меню -->
+        <div class="menu">
+          <a href="#" class="menu__link">Главная</a> <span>/</span>
+          <a href="#" class="menu__link">Настройки сайта</a> <span>/</span>
+          <a href="#" class="menu__link">Доступ к сайту</a>
+        </div>
+        </div>
+
+        <!-- доступ -->
+        <h1 class="title">Доступ к сайту</h1>
+      </div>
+    </div>
+  </section>
+
+<section class="section-customization">
+  <div class="container">
+    <div class="customization">
+      <h2 class="title">Настройка доступа к сайту</h2>
+      <p class="info">Контролируйте, кому доступен ваш сайт</p>
+
+      <h5 class="subtitle">Интернет сайт</h5>
+
+      <div class="point">
+        <input name="radio" type="radio" id="checkbox_check">
+        <div class="info">
+          <label for="checkbox_check">
+            <p class="subtitle">Опубликовать сайт</p>
+          <p>Доступно при оплаченном тарифном плане и купленном домене</p>
+          </label>
+        </div>
+
+      </div>
+      
+      <div class="point">
+        <input name="radio" type="radio" id="checkbox_check">
+        <div class="info">
+          <label for="checkbox_check">
+             <p class="subtitle">Сайт защищен паролем</p>
+             <p>Сайт увидит только тот, у кого есть пароль</p>
+          </label>
+          
+        </div>
+      </div>
+
+      <div class="password-form">
+        <p>Введите пароль</p>
+        <input class="input-password" type="password" name="password-authorization" placeholder="******">
+      </div>
+
+      <div class="point">
+        <input name="radio" type="radio" id="checkbox_check">
+        <div class="info">
+          <label for="checkbox_check">
+            <p class="subtitle">Приватный сайт</p>
+            <p>Только авторы и владелец сайта смогут увидеть сайт</p></label>
+        </div>
+    </div>
+
+    <!-- кнопки  -->
+    <div class="customization-buttons">
+      <a href="#" class="customization-button button-primary">Отменить</a>
+      <a href="#" class="customization-button button-secondary">Отменить</a>
+    </div>
+    <!-- /.customization -->
+  </div>
+  <!-- /.container -->
+</section>
+<!-- /.section-customization -->
+
+</body>
+<!--подключение js анимации tilt-->
+<script src="js-tilt/vanilla-tilt.min.js"></script>
+</html>
